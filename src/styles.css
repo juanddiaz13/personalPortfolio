@@ -1,0 +1,88 @@
+@media (min-width: 250px) {
+    .perfil {
+        height: 120px;
+        width: 120px;
+    }
+}
+
+/* sm */
+@media (min-width: 578px) {
+    .perfil {
+        height: 180px;
+        width: 180px;
+    }
+}
+/* md */
+@media (min-width: 992px) {
+    .perfil {
+        height: 200px;
+        width: 220px;
+    }
+}
+/* lg */
+@media (min-width: 1200px) {
+    .perfil {
+        height: 230px;
+        width: 250x;
+    }
+}
+
+.banner{
+    background-color: #202124;
+    height: 10vh;
+}
+
+.abajo{
+    background-color: #202124;
+    height: 4vh;
+}
+
+.mitad{
+    background-color: blue;
+    height: 100vh;
+}
+
+.sidebar{
+    background-color: rgb(230, 111, 0);
+}
+.maincont{
+    background-color:#202124;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Bebas Neue', cursive;
+   
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    margin-top: 0px;
+    border-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: 0px;;
+    display: flex;
+    align-items: row;
+    justify-content: center;
+    font-size: 4vh;
+    color: white ;
+}
+
+
+.top-menu{
+    background-color: rgb(185, 181, 181);
+
+}
+
+.photo-odd{
+    background-color: indianred;
+}
+
+.photo-even{
+    background-color:lightblue;
+}
