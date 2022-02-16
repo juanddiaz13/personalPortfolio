@@ -21,7 +21,7 @@
 }
 /* lg */
 @media (min-width: 1200px) {
-    .perfil {
+    .perfil, .imagen {
         height: 230px;
         width: 250x;
     }
@@ -99,9 +99,6 @@
 .mitad4{
     background-color: #8E05C2;
     height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .proyecto{
@@ -119,6 +116,11 @@
     justify-content: space-between;
     
    
+}
+
+.intereses{
+
+    
 }
 
 .right {
