@@ -20,7 +20,10 @@
 </head>
 <body>
     <div data-bs-spy="scroll" class="container-fluid min-vh-100 bg-image">
-        <div class="row banner"> 
+        <div class="row banner">
+            
+        </div>
+        <div class="row nav"> 
             <div class="ui secondary  menu">
                 <a href="#aboutme" class="active item a" style="color: white;">
                     About me
@@ -29,9 +32,8 @@
                  Proyects
                 </a>
                 <a href="#contact" class="item a" style="color: white;">
-                Contact 
+                Hobbies 
                 </a>
-            
           </div> 
         </div>
         <div class="row mitad">
@@ -116,13 +118,47 @@
             </div>
         </div>
         <div id="aboutme"class="row mitad2">
-            <div class="h-100vh col-lg-12 col-md-12 col-sm-12">
+            <div class=row>
+                <div class="h-30vh col-lg-12 col-md-12 col-sm-12 titulo2">ABOUT ME</div>
+          </div>
+          <div class="h-70vh col-lg-2 col-md-2 col-sm-0 contenedor-tabla"> </div>
+            <div class="h-70vh col-lg-6 col-md-6 col-sm-6 tabla">
                 <div class="row">
-                    
+                    <table data-aos="zoom-in" class="ui selectable inverted table" style="background-color: transparent;">
+                        <thead>
+                          <tr>
+                            <th>Achievment</th>
+                            <th>Summary</th>
+                            <th class="right aligned">Date</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>High School Graduation</td>
+                            <td>From New Cambridge School</td>
+                            <td class="right aligned">2017</td>
+                          </tr>
+                          <tr>
+                            <td>Service Volunteership</td>
+                            <td>In West Africa precisely in Ghana and Ivory Coast.</td>
+                            <td class="right aligned"> 2019-2021</td>
+                          </tr>
+                          <tr>
+                            <td>Investigation Group</td>
+                            <td>Member of the Redes&Politica investigation group. Helped to build a script to get colombian politicians social media</td>
+                            <td class="right aligned">None</td>
+                          </tr>
+                        </tbody>
+                      </table>
                 </div>
             </div>
+            <div class="h-70vh col-lg-2 col-md-2 col-sm-0"> </div>
         </div>
         <div id="proyects" class="row mitad3">
+           <div class=row>
+               <div class="h-30vh col-lg-12 col-md-12 col-sm-12 titulo">PROYECTS</div>
+         </div>
+           <div class=row>
             <div data-aos="zoom-in" class="h-100vh col-lg-4 col-md-4 col-sm-4 proyecto">
                 <div class="dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
                     <div>
@@ -130,9 +166,9 @@
                         <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><!-- ... --></svg>
                       </span>
                     </div>
-                    <h3 class="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight">Writes Upside-Down</h3>
-                    <p class="text-slate-500 dark:text-slate-400 mt-2 text-sm">
-                      The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in outer space.
+                    <h3 class="text-slate-900 dark:text-white mt-5 text-lg font-light"><a href=" https://github.com/juanddiaz13/politics-datascience">politics&data-science</a></h3>
+                    <p class="text-slate-500 dark:text-slate-400 mt-2 text-md">
+                        Python script to, given a csv file with the name of a group of colombian politician candidates and their political parties, get their twitter accounts.
                     </p>
                   </div>
             </div>
@@ -143,9 +179,9 @@
                         <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><!-- ... --></svg>
                       </span>
                     </div>
-                    <h3 class="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight">Writes Upside-Down</h3>
-                    <p class="text-slate-500 dark:text-slate-400 mt-2 text-sm">
-                      The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in outer space.
+                    <h3 class="text-slate-900 dark:text-white mt-5 text-lg font-medium tracking-tight"><a href="https://github.com/juanddiaz13/learn-italian-verbs">learn-italian-verbs</a></h3>
+                    <p class="text-slate-500 dark:text-slate-400 mt-2 text-md">
+                      Simple web application built with React to learn italian. 
                     </p>
                   </div>
             </div>
@@ -156,19 +192,59 @@
                         <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><!-- ... --></svg>
                       </span>
                     </div>
-                    <h3 class="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight">Writes Upside-Down</h3>
-                    <p class="text-slate-500 dark:text-slate-400 mt-2 text-sm">
-                      The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in outer space.
+                    <h3 class="text-slate-900 dark:text-white mt-5 text-lg font-medium tracking-tight"><a href="https://github.com/juanddiaz13/realTimeChatWithReact-FireBase">Real Time Chat</a></h3>
+                    <p class="text-slate-500 dark:text-slate-400 mt-2 text-md">
+                        Built with React and Firebase, allows to users that deployed the web app server send messages, see an historic and chat in realtime.
                     </p>
                   </div>
+            </div>
             </div>
         </div>
         <div id="contact" class="row mitad4">
-            <div class="h-100vh col-lg-12 col-md-12 col-sm-12">
-                <div class="row">
-                    
-                </div>
-            </div>
+            <div class=row>
+                <div class="h-30vh col-lg-12 col-md-12 col-sm-12 titulo2">INTERESTS</div>
+          </div>
+            <div class=row>
+             <div data-aos="zoom-in" class="h-100vh col-lg-4 col-md-4 col-sm-4 proyecto">
+                 <div class="dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
+                     <div>
+                       <span class="inline-flex items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
+                         <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><!-- ... --></svg>
+                       </span>
+                     </div>
+                     <h3 class="text-slate-900 dark:text-white mt-5 text-lg font-light">politics&data-science</h3>
+                     <p class="text-slate-500 dark:text-slate-400 mt-2 text-md">
+                         Python script to, given a csv file with the name of a group of colombian politician candidates and their political parties, get their twitter accounts.
+                     </p>
+                   </div>
+             </div>
+             <div data-aos="zoom-in" class="h-100vh col-lg-4 col-md-4 col-sm-4 proyecto">
+                 <div class="dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
+                     <div>
+                       <span class="inline-flex items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
+                         <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><!-- ... --></svg>
+                       </span>
+                     </div>
+                     <h3 class="text-slate-900 dark:text-white mt-5 text-lg font-medium tracking-tight">learn-italian-verbs</h3>
+                     <p class="text-slate-500 dark:text-slate-400 mt-2 text-md">
+                       Simple web application built with React to learn italian. 
+                     </p>
+                   </div>
+             </div>
+             <div data-aos="zoom-in" class="h-100vh col-lg-4 col-md-4 col-sm-4 proyecto">
+                 <div class="dark:bg-slate-900 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
+                     <div>
+                       <span class="inline-flex items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
+                         <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><!-- ... --></svg>
+                       </span>
+                     </div>
+                     <h3 class="text-slate-900 dark:text-white mt-5 text-lg font-medium tracking-tight">Real Time Chat</h3>
+                     <p class="text-slate-500 dark:text-slate-400 mt-2 text-md">
+                         Built with React and Firebase, allows to users that deployed the web app server send messages, see an historic and chat in realtime.
+                     </p>
+                   </div>
+             </div>
+             </div>
         </div>
         <div class="row abajo"> 
             <div class="container-audio">
