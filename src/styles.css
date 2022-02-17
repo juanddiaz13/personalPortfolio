@@ -86,6 +86,15 @@
     width: 30px;
 }
 
+.cont-logos-redes{
+    display: inline-flex;
+    
+}
+
+.logo-red{
+    margin: 5px;
+}
+
 .logo-div{
     height: 30px;
     width: 30px;
