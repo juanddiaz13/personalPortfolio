@@ -1,7 +1,7 @@
 # personalPortfolio
 Personal portfolio in english built with Bootstrap. 
 
-<h2><b>Access the website through GitHub Pages using the following URL  https://juanddiaz13.github.io/personalPortfolio/src/index.html</b></h2>
+<h2><b>Access the website through GitHub Pages using the following URL  https://juanddiaz13.github.io/release1-personalPortfolio/src/index.html </b></h2>
 
 P.S: To correctly see the styles and content refresh the page a couple times before going through it. 
 
