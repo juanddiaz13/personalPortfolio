@@ -3,28 +3,93 @@
         height: 120px;
         width: 120px;
     }
+    .projects-title{
+        padding-top:0vh;
+        border-top: 0px;
+        font-size: 3em;
+        color: white;
+    }
+    .machete{
+        height: 40px;
+    }
+    .imagen{
+        height: 350px;
+        width: 350px;;
+    }
 }
 
 /* sm */
-@media (min-width: 578px) {
+@media (min-width: 500px) {
     .perfil {
         height: 180px;
         width: 180px;
     }
+    .projects-title{
+        padding-top:0vh;
+        font-size: 3em;
+        color: white;
+
+    }
+    .container-project{
+        margin: 20px;
+        width: 800px;
+    }
+    .machete{
+        height: 5px;
+    }
+    .imagen{
+        height: 350px;
+        width: 350px;;
+    }
 }
 /* md */
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
     .perfil {
         height: 200px;
         width: 220px;
     }
+    .projects-title{
+        padding-top:4vh;
+        font-size: 3em;
+        color: white;
+
+    }
+    .machete{
+        height: 0px;
+    }
+    .container-project{
+        margin: 20px;
+        width: 800px;;
+    }
 }
 /* lg */
-@media (min-width: 1200px) {
+@media (min-width: 1500px) {
     .perfil, .imagen {
         height: 230px;
         width: 250x;
     }
+    .container-project{
+        margin: 20px;
+        width: 800px;
+        color: white;
+    }
+    .machete{
+        height: 150px;
+    }
+}
+
+.logo{
+    height: 30px;
+    width: 30px;
+}
+
+.logo-div{
+    height: 30px;
+    width: 30px;
+}
+
+.name-title{
+    font-size: 3em;
 }
 
 .banner{
@@ -34,40 +99,19 @@
 }
 
 .titulo{
-    margin-top: 2em;
     padding: 0em;
-    margin-left: 43vw;
     background-color: #202124;
     color: white;
-    display: flex;
-    flex-direction: row;
-    font-size: 5em;;
-    text-align: center;
 }
 
 .titulo2{
-    margin-top: 2em;
     padding: 0em;
-    margin-left: 43vw;
     background-color: #8E05C2;
     color: white;
-    display: flex;
-    flex-direction: row;
-    font-size: 5em;;
-    text-align: center;
+    font-size: 5em;
 }
 
-
-
-
-.tabla{
-    display: flex;
-    flex-direction: column;
-    margin-left: 20vw;
-    background-color: rgb(15 23 42 / var(--tw-bg-opacity));
-}
-
-.nav{
+.navi{
     background-color: #202124;
     height: 10vh;
 }
@@ -85,9 +129,6 @@
 .mitad2{
     background-color: #8E05C2;
     height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 
@@ -99,6 +140,11 @@
 .mitad4{
     background-color: #8E05C2;
     height: 100vh;
+}
+
+.footer{
+    background-color:#202124;
+    color: white;
 }
 
 .proyecto{
@@ -116,11 +162,6 @@
     justify-content: space-between;
     
    
-}
-
-.intereses{
-
-    
 }
 
 .right {
@@ -183,6 +224,7 @@ h3{
 audio {
   width:100%;
 }
+
 audio:nth-child(2), audio:nth-child(4), audio:nth-child(6) {
     margin: 0;
 }
